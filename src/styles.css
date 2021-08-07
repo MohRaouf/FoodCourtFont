@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url("src/assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+nav {
+    background-color: rgb(53, 97, 163);
+    box-shadow: 2px 3px 10px rgb(185, 224, 255);
+    height: 70px;
+    border-radius: 5px;
+}
+
+.food-img {
+    height: 500px;
+    width: 100%;
+    opacity: 50%;
+}

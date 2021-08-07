@@ -1,0 +1,74 @@
+.mat-row .mat-cell {
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mat-column-no {
+    color: black;
+    width: 40px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+.mat-header-row {
+    background-color: rgb(133, 176, 255);
+}
+
+.mat-cell {
+    border: 1px solid rgb(187, 213, 230);
+}
+
+p {
+    font-size: 16px;
+    margin: 3px;
+    color: rgb(63, 62, 62);
+}
+
+.entity-title {
+    font-size: 20px !important;
+}
+
+img {
+    height: 80px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 10%;
+    box-shadow: 0 1px 100px 0 rgb(0 0 0 / 10%);
+    object-fit: cover;
+}
+
+.mat-header-cell {
+    border: 1px solid lightblue;
+    padding: 10px;
+    vertical-align: middle !important;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+    text-align: center;
+}
+
+.mat-row:hover .mat-cell {
+    background-color: rgb(125, 207, 245);
+}
+
+.mat-row:active .mat-cell {
+    background-color: rgb(62, 167, 216);
+}
+
+i {
+    color: antiquewhite;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.example-form {
+    min-width: 150px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
