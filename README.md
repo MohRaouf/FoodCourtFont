@@ -25,8 +25,9 @@ To show the available Food Courts in a Dashboard where the Business owner can pe
 </br>
 
 - ### Pagination on the request that is sent to the backend and in the table to limit the number of retrieved entries from the backend and for better UX. 
-- 
+
 </br>
+
 <div style="text-align:center">   
   <img  src="src/assets/images/foodcourt-pagination.png"/>
 </div>
