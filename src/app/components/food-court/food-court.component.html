@@ -100,7 +100,7 @@
                                 </ng-template>
                                 <div class="row justify-content-center">
                                     <mat-paginator #paginator [length]="stores?.count"
-                                    [pageSizeOptions]="[6, 10, 25, 100]" (page)="getServerData($event)">
+                                    [pageSizeOptions]="[5, 10, 25, 100]" (page)="getServerData($event)">
                                 </mat-paginator>
                             </div>
                             </div>
@@ -209,7 +209,7 @@
 
                     <div class="modal-footer" *ngIf="success">
                         <button type="button" class="btn btn-success form-buton font-weight-bold"
-                            (click)="getServerData($event);" data-dismiss="modal" aria-label="Close">
+                            (click)="ngAfterViewInit()" data-dismiss="modal" aria-label="Close">
                             Done
                         </button>
                     </div>
@@ -247,7 +247,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                    (click)="getServerData($event)">Close</button>
+                    (click)="ngAfterViewInit()">Close</button>
                 <button type="button" class="btn btn-danger" (click)="delete()" *ngIf="!success">Confirm</button>
             </div>
         </div>

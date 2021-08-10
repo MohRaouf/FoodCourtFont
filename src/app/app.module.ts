@@ -7,7 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { CustomFormsModule } from 'ng2-validation'
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';

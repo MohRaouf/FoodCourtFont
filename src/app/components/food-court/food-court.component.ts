@@ -51,7 +51,6 @@ export class FoodCourtComponent implements OnInit {
     this.isUpdate = false;
   }
   create(entity: NgForm) {
-    console.log(entity.value);
     this.storeService.create(entity.value).pipe(untilDestroyed(this)).subscribe(
       (res) => {
         this.loading = false;
@@ -68,10 +67,8 @@ export class FoodCourtComponent implements OnInit {
     this.resetAction();
     this.isUpdate = true;
     this.selectedStore = item;
-    console.log(this.selectedStore)
   }
   update(entity: NgForm) {
-    console.log(entity.value);
     this.storeService.update(this.selectedStore._id.toString(), entity.value).pipe(untilDestroyed(this)).subscribe(
       (res) => {
         this.loading = false;
