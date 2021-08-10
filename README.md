@@ -1,27 +1,43 @@
-# FoodCourtFront
+# Food Court Application
+![Food Court](src/assets/images/foodcourt-img.png)
+</br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+To show the available Food Courts in a Dashboard where the Business owner can perform the CRUD operation to manage his business.
 
-## Development server
+## Feature
+- ### Performing the CRUD operation with a strict Template-driven validation on each entry in the create and  update operation.
+</br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Food Court](src/assets/images/foodcourt-create.png)
+</br>
 
-## Code scaffolding
+- ### Feedback message to the admin in creation - update - deletion of stores, informs the admin with the result of the operation (success - failed - duplication)
+</br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Food Court](src/assets/images/foodcourt-feedback.png)
+</br>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- ### Dynamic Search for the stores by name, and propose suggestions in realtime from the backend with the pagination enabled.
+</br>
 
-## Running unit tests
+![Food Court](src/assets/images/foodcourt-search.png)
+</br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- ### Pagination on the request that is sent to the backend and in the table to limit the number of retrieved entries from the backend and for better UX. 
+- 
+</br>
+<div style="text-align:center">   
+  <img  src="src/assets/images/foodcourt-pagination.png"/>
+</div>
+</br>
 
-## Running end-to-end tests
+## Libraries Highlights
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- ### ```ng2-validation``` : To validate the Image URL input.
+- ### ```Angular Material``` : I used Table - AutoComplete and Paginator components from the Angular Material Components.
+- ### ```font-awesome , Bootstrap```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
