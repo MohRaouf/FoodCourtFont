@@ -6,6 +6,7 @@
 
 To show the available Food Courts in a Dashboard where the Business owner can perform the CRUD operation to manage his business.
 
+- ## Deployed on [netifly](https://foodcourtstores.netlify.app/)
 ## Feature
 - ### Performing the CRUD operation with a strict Template-driven validation on each entry in the create and  update operation.
 </br>
